@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #eedfc3c5;
+    border-radius: 20px;
+    border: 2px solid #d0a350;
+    width: 550px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.list-container {
+    background-color: #d9c59dc5;
+    margin: 20px 0;
+    border-radius: 8px;
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.todo-item {
+    background-color: #d0a350;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+}
+
+.todo-item:hover {
+    background-color: #e0bd7b;
+}
+
+.action-container {
+    width: 100%;
+}
+
+#task-input {
+    border: none;
+    color: white;
+    font-size: medium;
+    background-color: #d0a350;
+    border-radius: 10px;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#taskdone {
+    cursor: pointer;
+    border: none;
+    vertical-align: middle;
+}
+
+#taskdone:hover {
+    background-color: #e0bd7b;
+}
+
+button {
+    font-weight: 600;
+    background-color: #d0a350;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e0bd7b;
+}
