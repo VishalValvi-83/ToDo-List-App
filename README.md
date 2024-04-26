@@ -1,5 +1,5 @@
 # ToDo List App
-This is a simple To-Do List Application built using HTML, CSS, and JavaScript. It allows you to add tasks, clear tasks, and view your current list of tasks.
+This is a simple To-Do List Application built using HTML, CSS, and JavaScript. It allows you to add tasks.
 
 ## Technologies Used
 
