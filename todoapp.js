@@ -1,5 +1,10 @@
-const toDoList = []
+let toDoList = []
 
+    const listOflclSotrage = localStorage.getItem("toDoList");
+    if(listOflclSotrage){
+        toDoList = JSON.parse(listOflclSotrage)
+        show()
+    }
         function add() {
             const taskitem = document.getElementById("task-input")
             if (taskitem.value == "") {
